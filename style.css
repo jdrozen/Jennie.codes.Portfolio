@@ -45,12 +45,19 @@ img {
   justify-content: center;
 }
 
-.navigation-links a {
+.navigation-links a,
+.project-links a {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.project-links {
+  justify-content: start;
+  display: flex;
+  margin-top: 40px;
 }
 
 .primary-link {
@@ -94,4 +101,43 @@ img {
 
 .paragraph-h2 {
   text-align: left;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .about-header {
+    margin-top: 100px;
+  }
+
+  h2,
+  .paragraph-h2 {
+    font-size: px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .index-image {
+    display: none;
+  }
+
+  .project-links .primary-link {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .container,
+  .container-fluid {
+    max-width: 540px;
+  }
 }
