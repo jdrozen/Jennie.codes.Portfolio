@@ -92,7 +92,7 @@ body {
 }
 
 .jennie-photo {
-  max-width: 100px;
+  max-width: 175px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -175,7 +175,7 @@ body {
   width: 24rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .content-h1,
   .content-h2 {
     display: none;
