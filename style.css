@@ -123,10 +123,9 @@ body {
 .navigation {
   margin: 0 auto;
   padding-top: 40px;
+  text-align: center;
 }
 .nav-icon {
-  list-style: none;
-  text-align: center;
   font-size: 30px;
   padding: 5px;
 }
@@ -169,9 +168,39 @@ body {
   width: 24rem;
 }
 
-/* @media (max-width: 576px) {
-  .container {
-    margin-left: 5px;
-    margin-right: 5px;
+@media (max-width: 576px) {
+  .content-h1,
+  .content-h2 {
+    display: none;
   }
-} */
+
+  .content-h3 {
+    text-align: left;
+    padding: 10px;
+  }
+  .card {
+    max-width: 95%;
+  }
+
+  .learn-more {
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 0px;
+  }
+
+  .learn-more a {
+    padding: 0px;
+  }
+
+  .navigation {
+    padding-top: 15px;
+  }
+
+  .icon {
+    padding: 8px;
+  }
+
+  .left-nav {
+    padding-bottom: 20px;
+  }
+}
