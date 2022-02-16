@@ -54,6 +54,8 @@ body {
   font-weight: normal;
   opacity: 75%;
   padding-left: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .left-nav {
@@ -66,7 +68,8 @@ body {
 
 .logos i {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 5px;
   padding: 3px;
 }
 
@@ -144,6 +147,13 @@ body {
 .card {
   display: block;
   margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-img-top {
