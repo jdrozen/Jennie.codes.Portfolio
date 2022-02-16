@@ -51,8 +51,7 @@ body {
 .content-h3 {
   font-family: var(--secondaryfont);
   font-size: 20px;
-  font-weight: normal;
-  opacity: 75%;
+  opacity: 95%;
   padding-left: 160px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -177,6 +176,16 @@ body {
 
 .card {
   width: 24rem;
+}
+
+.reference-links {
+  color: var(--secondarycolor);
+  text-decoration: none;
+}
+
+.reference-links:hover {
+  color: var(--primarycolor);
+  text-decoration: underline;
 }
 
 @media (max-width: 576px) {
