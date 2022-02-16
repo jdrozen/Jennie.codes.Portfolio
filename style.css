@@ -202,5 +202,6 @@ body {
 
   .left-nav {
     padding-bottom: 20px;
+    border-radius: 30px;
   }
 }
