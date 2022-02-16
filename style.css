@@ -105,19 +105,26 @@ body {
   opacity: 75%;
 }
 
-.learn-more {
+.learn-more,
+.contact-me {
   text-align: right;
   color: black;
   text-decoration: none;
 }
 
-.learn-more a {
+.learn-more a,
+.contact-me a {
   font-family: var(--secondary-font);
 }
 
-.learn-more:hover {
+.learn-more:hover,
+.contact-me:hover {
   color: var(--primarycolor);
   text-decoration: underline;
+}
+
+.contact-me {
+  display: none;
 }
 
 .navigation {
@@ -190,13 +197,21 @@ body {
     max-width: 95%;
   }
 
-  .learn-more {
-    text-align: left;
-    padding-left: 10px;
-    margin-top: 0px;
+  .nav-links {
+    text-align: center;
+    margin-bottom: 20px;
   }
 
-  .learn-more a {
+  .learn-more,
+  .contact-me {
+    text-align: center;
+    margin-top: 0px;
+    display: inline;
+    padding: 8px;
+  }
+
+  .learn-more a,
+  .contact-me a {
     padding: 0px;
   }
 
@@ -211,5 +226,9 @@ body {
   .left-nav {
     padding-bottom: 20px;
     border-radius: 0px;
+  }
+
+  .right-nav {
+    display: none;
   }
 }
