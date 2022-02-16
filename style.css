@@ -12,8 +12,13 @@ h2,
 h3 {
   text-align: right;
 }
+
+body {
+  background: rgba(0, 0, 0, 0.04);
+}
 .container {
   margin-top: 50px;
+  margin-bottom: 50px;
   border: 0px solid transparent;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 30px;
@@ -28,6 +33,13 @@ h3 {
   font-size: 20px;
   text-align: center;
   margin-top: 5px;
+}
+
+.project-h1 {
+  text-align: center;
+  font-family: var(--secondaryfont);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .content-h2 {
   font-family: var(--secondaryfont);
@@ -52,8 +64,14 @@ h3 {
   padding-bottom: 10px;
 }
 
-.logos {
+.logos i {
   text-align: center;
+  font-size: 20px;
+  padding: 3px;
+}
+
+.logos i:hover {
+  color: var(--primarycolor);
 }
 
 .icon {
@@ -62,14 +80,12 @@ h3 {
 
 .content {
   background-color: white;
-  border-radius: 30px 0px 0px 30px;
+  border-radius: 30px 30px 30px 30px;
   padding-bottom: 10px;
 }
 
 .right-nav {
   border-radius: 0px 30px 30px 0px;
-  background-color: white;
-  padding-bottom: 10px;
 }
 
 .jennie-photo {
@@ -88,16 +104,59 @@ h3 {
 
 .learn-more {
   text-align: right;
-  font-family: var(--primary-font);
+  color: black;
+  text-decoration: none;
 }
 
 .learn-more a {
-  color: black;
+  font-family: var(--secondary-font);
 }
 
-.learn-more a:hover {
-  color: purple;
-  font-weight: bold;
+.learn-more:hover {
+  color: var(--primarycolor);
+  text-decoration: underline;
+}
+
+.navigation {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.nav-icon {
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.nav-icon a {
+  color: var(--tertiarycolor);
+}
+
+.nav-icon a:hover {
+  color: var(--primarycolor);
+}
+
+.project-row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  min-height: 3.5em;
+}
+
+.card {
+  width: 24rem;
 }
 
 /* @media (max-width: 576px) {
