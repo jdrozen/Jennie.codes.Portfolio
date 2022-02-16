@@ -94,6 +94,11 @@ body {
 .jennie-photo {
   max-width: 175px;
   display: block;
+}
+
+.image-placeholder {
+  width: 175px;
+  height: 175px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
