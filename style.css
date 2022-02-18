@@ -180,12 +180,12 @@ body {
 }
 
 .reference-links {
-  color: var(--secondarycolor);
+  color: var(--primarycolor);
   text-decoration: none;
 }
 
 .reference-links:hover {
-  color: var(--primarycolor);
+  color: var(--secondarycolor);
   text-decoration: underline;
 }
 
