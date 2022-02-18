@@ -211,6 +211,38 @@ body {
   margin: 0 auto;
 }
 
+.fun-fact,
+.contact-text {
+  margin: 10px;
+  font-family: var(--primaryfont);
+  font-weight: 200;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.fun-fact div {
+  display: inline;
+}
+
+.emoji {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  min-width: 60px;
+}
+
+.contact-links {
+  color: var(--primarycolor);
+  text-decoration: none;
+}
+
+.contact-links:hover {
+  text-decoration: underline;
+  color: var(--secondarycolor);
+}
+
 @media (max-width: 576px) {
   .content-h1,
   .content-h2 {
