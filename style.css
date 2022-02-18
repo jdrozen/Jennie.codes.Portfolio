@@ -16,6 +16,7 @@ h3 {
 body {
   background: rgba(0, 0, 0, 0.04);
 }
+
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -153,7 +154,7 @@ body {
   margin-bottom: 15px;
 }
 
-.card {
+.project-card {
   display: block;
   margin: 0 auto;
   transition: all 0.2s ease-in-out;
@@ -161,7 +162,7 @@ body {
   margin-bottom: 15px;
 }
 
-.card:hover {
+.project-card:hover {
   transform: scale(1.05);
 }
 
@@ -170,11 +171,11 @@ body {
   object-fit: cover;
 }
 
-.card-text {
+.project-text {
   min-height: 3.5em;
 }
 
-.card {
+.project-card {
   width: 24rem;
 }
 
@@ -186,6 +187,28 @@ body {
 .reference-links:hover {
   color: var(--primarycolor);
   text-decoration: underline;
+}
+
+.about-text {
+  margin: 20px 30px;
+  text-align: left;
+  font-family: var(--primaryfont);
+  font-weight: 200;
+}
+
+.fact-card {
+  display: flex;
+  margin: 0 auto;
+  min-height: 7rem;
+  text-align: center;
+  font-size: 12px;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-card p {
+  margin: 0 auto;
 }
 
 @media (max-width: 576px) {
@@ -206,7 +229,7 @@ body {
   .content {
     border-radius: 30px 30px 0px 0px;
   }
-  .card {
+  .project-card {
     max-width: 95%;
   }
 
