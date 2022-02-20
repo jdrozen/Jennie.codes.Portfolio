@@ -1,6 +1,8 @@
 :root {
   --primaryfont: "Poppins", sans-serif;
   --secondaryfont: "Playfair Display", serif;
+  --tertiaryfont: "Montserrat", sans-serif;
+
   --primarycolor: #5585b5;
   --secondarycolor: #53a8b6;
   --tertiarycolor: #79c2d0;
@@ -243,7 +245,11 @@ body {
   color: var(--secondarycolor);
 }
 
-@media (max-width: 576px) {
+.footer {
+  display: none;
+}
+
+@media (max-width: 992px) {
   .content-h1,
   .content-h2 {
     display: none;
@@ -255,7 +261,7 @@ body {
   }
 
   .container {
-    margin: 0px;
+    margin: 0 auto;
   }
 
   .content {
@@ -298,5 +304,9 @@ body {
 
   .right-nav {
     display: none;
+  }
+
+  .footer {
+    display: block;
   }
 }
