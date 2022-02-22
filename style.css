@@ -309,4 +309,8 @@ body {
   .footer {
     display: block;
   }
+
+  .repository {
+    margin-top: 30px;
+  }
 }
